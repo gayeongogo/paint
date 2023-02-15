@@ -1,0 +1,77 @@
+@charset "utf-8";
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;500;600;700;800;900&display=swap');
+
+
+body{
+    min-height: 100vh;
+    padding-top: 40px;
+    box-sizing: border-box;
+    background: linear-gradient(217deg, rgba(232, 157, 255, 0.8), rgba(255,0,0,0) 70.71%), linear-gradient(127deg, rgba(255, 254, 183, 0.8), rgba(0,255,0,0) 70.71%), linear-gradient(336deg, rgba(109, 160, 255, 0.8), rgba(0,0,255,0) 70.71%);
+    font-family: 'Frank Ruhl Libre', serif;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+
+#wrap{
+    padding: 0 auto;
+    text-align: center;
+}
+.title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0 4px 6px rgba(0,0,0,0.25);
+}
+.canvas{
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+    margin-top: 15px;
+}
+
+.controls{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.controls .controls-btns{
+    margin-bottom: 20px;
+}
+.controls .controls-colors{
+    display: flex;
+}
+.controls-colors .controls-color{
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.25);
+    border-radius: 20px;
+    cursor: pointer;
+}
+button{
+    font-size: 18px;
+    background: #fff;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.25);
+    cursor: pointer;
+    font-family: 'Frank Ruhl Libre', serif;
+    margin-left: 7px;
+}
+button:first-child{margin-left: 0;}
+button:active{transform: scale(0.98);}
+
+.controls-range{
+    margin-bottom: 10px;
+}
+/* .range{
+  background: linear-gradient(to right, #a465ce 0%, #a465ce 50%, #ececec 50%, #ececec 100%);
+  border-radius: 8px;
+  outline: none;
+  transition: background 450ms ease-in;
+  -webkit-appearance: none;
+  accent-color: #7329a5;
+} */
