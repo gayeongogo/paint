@@ -50,6 +50,7 @@ body{
     border-radius: 20px;
     cursor: pointer;
 }
+.controls-colors .controls-color:active{transform: scale(0.98);}
 button{
     font-size: 18px;
     background: #fff;
